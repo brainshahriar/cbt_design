@@ -1,0 +1,41 @@
+.sidebar {
+  position: absolute;
+  width: 220px;
+  height: 979px;
+  left: 0px;
+  top: 0px;
+  background: #1b1c1e;
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    &__logo {
+      position: absolute;
+      width: 114px;
+      height: 30px;
+      left: 30px;
+      top: 39px;
+
+      &--overview {
+        // position: absolute;
+        margin-top: 64.5px;
+        width: 160px;
+        height: 40px;
+        left: 30px;
+        top: 133px;
+      }
+      &--logout {
+        // position: absolute;
+        margin-top: 250px;
+        width: 160px;
+        height: 40px;
+        left: 30px;
+        top: 133px;
+      }
+    }
+  }
+}
